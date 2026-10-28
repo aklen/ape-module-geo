@@ -6,11 +6,16 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <RootNamespace>Ape.Module.Geo</RootNamespace>
-    <Description>Coordinate transforms and geodetic helpers for Ape modules.</Description>
+    <Description>Coordinate transforms, geodetic conversions, and map projections for Ape modules.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Ape.Core\Ape.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Tests/**" />
+    <None Remove="Tests/**" />
   </ItemGroup>
 
 </Project>

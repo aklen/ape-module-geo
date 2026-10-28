@@ -1,6 +1,6 @@
 # Ape.Module.Geo
 
-Optional Ape module for coordinate transforms between WGS-84, local Cartesian, and Unity frames. In an [ape-skeleton](https://github.com/aklen/ape-skeleton) workspace this checkout is `src/Ape.Modules/Ape.Module.Geo/`.
+Optional Ape module for geodetic frames, map projections, and local coordinate transforms. In an [ape-skeleton](https://github.com/aklen/ape-skeleton) workspace this checkout is `src/Ape.Modules/Ape.Module.Geo/`.
 
 See [Docs/README.md](Docs/README.md).
 
